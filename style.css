@@ -1,0 +1,36 @@
+header {
+    background: #50afbb;
+    padding: 20px;
+}
+.header-box {
+    width: 940px;
+    margin: 0 auto;
+    line-height: 0;
+    max-width: 50%;
+    text-align: center;
+}
+#profile-image {
+    width: 300px;
+    height: auto;
+}
+.gazou {
+    text-align: center;
+}
+.gazou li:hover {
+    border-color: #008080;
+}
+li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 6px;
+    border-color: #000000 ;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+}
+a {
+    text-decoration: none;
+}
+footer {
+    background: #50afbb;
+}
