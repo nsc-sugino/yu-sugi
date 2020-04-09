@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <label for = "">数字を予想してください。</label>
+        <input id = "number"/>
+        <button>予測する！</button>
+        <script>
+
+            function generateRamdomNumber() {
+                let number = Math.round(Math.random() * 10);
+                console.log(number);
+                return number;
+            }
+
+            var secret = generateRamdomNumber();
+           
+            var input = document.querySelector('#number');
+            
+            function checkEquals() {
+                if(secret == input.value) {
+                    alert('正解です。おめでとうございます');
+                    secret = generateRamdomNumber();
+                  
+                }　else {
+                    alert('残念。不正解');
+                }
+                input.value ='';
+                input.focus();
+            }
+            let button = document.querySelector('button');
+            button.onclick = checkEquals;
+            
+
+        </script>
+    </body>
+</html>
