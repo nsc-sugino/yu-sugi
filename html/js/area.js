@@ -9,10 +9,10 @@ function getArea(length,width) {
     var area = length * width;
     return area;
 }
-console.log('面積は' + getArea() );
+console.log('面積は' + getArea(length,width));
 
 function getPerimeter(length,width) {
     var perimeter = (length + width) * 2;
     return perimeter;
 }
-console.log('周囲の長さは' + getPerimeter());
+console.log('周囲の長さは' + getPerimeter(length,width));
