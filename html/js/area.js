@@ -5,6 +5,7 @@ let number2 = Math.floor( Math.random() * (max + 1 - min) ) + min ;
 let length = number1;
 let width = number2;
 
+
 function getArea(length,width) {
     var area = length * width;
     return area;
