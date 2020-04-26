@@ -13,11 +13,11 @@ class Yuusya extends Status {
     constructor(name, buki, hp, mp,) {
         super(name, buki, hp, mp);
 
-        let Yuusya = new Status(
+        let yuusya = new Status(
             '名無しの勇者',
+            '勇者の剣',
             '200',
-            '150',
-            '勇者の剣'
+            '200'
         );
     }
 }
@@ -26,11 +26,11 @@ class Wizard extends Status {
     constructor(name, buki, hp, mp,) {
         super(name, buki, hp, mp);
 
-        let Wizard = new Status (
+        let wizard = new Status (
             '魔法使い',
+            '魔法の杖',
             '150',
-            '200',
-            '魔法の杖'
+            '250'
         );
     }
 }
@@ -39,11 +39,11 @@ class Cleric extends Status {
     constructor(name, buki, hp, mp,) {
         super(name, buki, hp, mp);
 
-        let Cleric = new Status(
+        let cleric = new Status(
             'ヒーラー',
-            '100',
+            '回復の杖',
             '150',
-            '回復の杖'
+            '250'
         );
     }
 }
@@ -52,11 +52,11 @@ class Berseker extends Status {
     constructor(name, buki, hp, mp,) {
         super(name, buki, hp, mp);
 
-        let Berseker = new Status(
+        let berseker = new Status (
             '狂戦士',
+            '戦斧',
             '300',
-            '80',
-            '斧',
+            '100',
         );
     }
 
@@ -66,11 +66,11 @@ class Slime extends Status {
     constructor(name, buki, hp, mp,) {
         super(name, buki, hp, mp);
 
-        let Slime = new Status(
+        let slime = new Status(
             'スライム',
+            '',
             '50',
-            '50',
-            ''
+            '50'
         );
     }
 }
@@ -79,11 +79,11 @@ class Ork extends Status {
     constructor(name, buki, hp, mp,) {
         super(name, buki, hp, mp);
 
-        let Ork = new Status(
+        let ork = new Status(
             'オーク',
+            '大きな斧',
             '500',
-            '0',
-            '大きな斧'
+            '0'
         );
         
     }
@@ -93,24 +93,24 @@ class LastBoss extends Status {
     constructor(name, buki, hp, mp,) {
         super(name, buki, hp, mp);
 
-        let LastBoss = new Status(
+        let lastBoss = new Status(
             'ラスボス',
+            '歴戦の剣',
             '1000',
-            '200',
-            '歴戦の剣'
+            '300'
         );
         
     }
 }
-
-class main {
-    
-}
-
 class attack {
-     
-    
+    kougeki() {
+
+    }
 }
+
+
+
+
 
 
 

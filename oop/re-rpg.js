@@ -101,7 +101,7 @@ class LastBoss extends Monster {
 let nYuusya = new Yuusya('駆け出しの勇者', 300, 250, '勇者の剣');
 
 
-console.log(`${nYuusya.name} HP:${nYuusya.hp} MP${nYuusya.mp} 武器:${nYuusya.weapon}`);
+console.log(`${nYuusya.name} HP:${nYuusya.hp} MP:${nYuusya.mp} 武器:${nYuusya.weapon}`);
 
 
 console.log('敵が現れた！');
